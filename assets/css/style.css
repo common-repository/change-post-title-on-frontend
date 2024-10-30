@@ -1,0 +1,31 @@
+input.changeable-text-field {
+	padding: 15px 20px 5px 0 !important;
+	font-size: 28px;
+	font-weight: bold;
+	border: none !important;
+	border-bottom: 4px solid #ff0000 !important;
+	box-shadow: none;
+	display: none;
+	width: 100%;
+}
+input:focus {
+	outline: 0;
+}
+input.active, div.changeable-text i.fa.fa-close.active {
+	display: block;
+}
+div.changeable-text {
+	width: 100%;
+	max-width: 850px;
+	position: relative;
+}
+div.changeable-text i.fa.fa-close {
+	display: none;
+	color: #ff0000 !important;
+	position: absolute;
+	top: 50%;
+	font-size: 22px;
+	right: 0;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
